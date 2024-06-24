@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Ecommerce</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" id="logo" ></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about2.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <li><a class="active"  href="login.html" id="form-open"><i class="far fa-sign-in"></i></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="home">
+        <div class="form-container">
+            <div class="form login-form">
+                <form action="#">
+                    <h2>Login</h2>
+
+                    <div class="input-box">
+                        <input type="email" placeholder="Email" required>
+                        <i class="fal fa-envelope email"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class="far fa-lock password"></i>
+                        <i class="fad fa-eye-slash pw-hide"></i>
+                    </div>
+                    <div class="option-field">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check">
+                            <label for="check">Remember me</label>
+                        </span>
+                        <a href="#" class="forget-pw">Forget password?</a>
+                    </div>
+                    <button class="button">Login</button>
+                    <div class="login-signup">
+                        Dont't have an account? <a href="#" id="signup">Signup</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="hero" class="back">
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
